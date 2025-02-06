@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--color-primary-main);
+  padding: var(--spacing-horizontal-md) var(--spacing-vertical-md);
+  font-weight: var(--font-weight-bold);
+  color: var(--font-color-light);
+
+  --font-color-light: #566542;
+}
+.headerSubtext {
+  color: var(--font-color-light);
+}

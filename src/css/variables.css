@@ -1,0 +1,11 @@
+:root {
+  --color-primary-main: #c11b8f;
+  --color-secondary-main: #53144b;
+
+  --spacing-horizontal-md: 1rem;
+  --spacing-vertical-md: 0.5rem;
+  --font-weight-main: 400;
+  --font-weight-bold: 600;
+  --font-color-main: #333;
+  --font-color-light: #fff;
+}

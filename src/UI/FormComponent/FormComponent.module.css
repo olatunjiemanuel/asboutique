@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 150%;
+  height: 100%;
+  border: 1px solid var(--color-secondary-main);
+  padding: 30px;
+}
+
+.formInputs {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 30px;
+  border: 1px solid var(--color-secondary-main);
+  padding-left: 10px;
+}
+
+.queryInput {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height: 300px;
+  padding: 10px;
+}
+
+.submitButton {
+  background-color: var(--color-primary-main);
+  color: var(--font-color-light);
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  cursor: pointer;
+}
