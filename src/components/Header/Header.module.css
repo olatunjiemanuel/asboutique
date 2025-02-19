@@ -1,11 +1,38 @@
-.header {
-  background-color: var(--color-primary-main);
-  padding: var(--spacing-horizontal-md) var(--spacing-vertical-md);
-  font-weight: var(--font-weight-bold);
+.headerCtnr {
+  /* padding: var(--spacing-horizontal-md) var(--spacing-vertical-md); */
+  /* font-weight: var(--font-weight-bold);
   color: var(--font-color-light);
-
-  --font-color-light: #566542;
+  --font-color-light: #566542; */
+  flex: 1;
+  background-image: url("../../UI/Images/flower\ background\ Image.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.headerTxtCntr {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerMaintext {
+  color: var(--color-primary-main);
+  font-weight: var(--font-weight-bold);
+  font-size: 250px;
+  margin-bottom: 0px;
+  word-spacing: 0.5rem;
+}
+
 .headerSubtext {
   color: var(--font-color-light);
+  font-weight: var(--font-weight-main);
+  font-size: 60px;
 }

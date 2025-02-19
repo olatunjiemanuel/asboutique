@@ -1,9 +1,15 @@
+.formCntnr {
+  display: flex;
+  flex: 1;
+  width: 40%;
+}
+
 form {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  width: 150%;
-  height: 100%;
+  flex: 1;
+  height: 50%;
   border: 1px solid var(--color-secondary-main);
   padding: 30px;
 }

@@ -19,7 +19,7 @@ const FormComponent = ({
   onChangeName,
 }: FormComponentProps) => {
   return (
-    <div>
+    <div className={styles.formCntnr}>
       <form className={styles.form}>
         <label htmlFor="name">Name</label>
         <input

@@ -1,0 +1,55 @@
+.WhyShopWithUs {
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.WhyShopWithUsTextCntnr {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.WhyShopWithUsMainText {
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary-main);
+  margin-bottom: 0px;
+}
+
+.WhyShopWithUsSubText {
+  width: 700px;
+  text-align: center;
+  font-size: 25px;
+  word-spacing: 0.4rem;
+  /* margin-top: 0px; */
+}
+
+.Images {
+  width: 100%;
+  height: 100%;
+}
+
+.mainSubTxt {
+  color: var(--color-primary-main);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-main);
+}
+.secondarySubTxt {
+  color: var(--font-color-light);
+  font-weight: var(--font-weight-main);
+  font-size: var(--font-size-main);
+}
+
+.logoTextCntnrs {
+  text-wrap: wrap;
+  text-align: center;
+  width: 200px;
+  word-spacing: 0.2rem;
+}
+
+.WhyShopWithUsLogoCtnr {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--color-secondary-main);
+  padding: 50px;
+}
