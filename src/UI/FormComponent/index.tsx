@@ -8,6 +8,7 @@ interface FormComponentProps {
   onChangeName: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onChangeEmail: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onChangeInquiry: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
+  onSubmit: (e: React.FormEvent) => void;
 }
 
 const FormComponent = ({
@@ -17,10 +18,11 @@ const FormComponent = ({
   onChangeEmail,
   onChangeInquiry,
   onChangeName,
+  onSubmit,
 }: FormComponentProps) => {
   return (
     <div className={styles.formCntnr}>
-      <form className={styles.form}>
+      <form className={styles.form} onSubmit={onSubmit}>
         <label htmlFor="name">Name</label>
         <input
           className={styles.formInputs}
