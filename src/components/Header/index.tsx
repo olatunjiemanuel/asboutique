@@ -2,8 +2,6 @@ import React from "react";
 
 import styles from "./Header.module.css";
 
-import flowerBackgorundImg from "../../UI/Images/flower background Image.png";
-
 const Header = () => {
   return (
     <div className={styles.headerCtnr}>
