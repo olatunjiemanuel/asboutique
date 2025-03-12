@@ -1,10 +1,6 @@
 .headerCtnr {
-  /* padding: var(--spacing-horizontal-md) var(--spacing-vertical-md); */
-  /* font-weight: var(--font-weight-bold);
-  color: var(--font-color-light);
-  --font-color-light: #566542; */
   flex: 1;
-  background-image: url("../../UI/Images/flower\ background\ Image.png");
+  background-image: url("../../UI/Images/flower background Image.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -26,13 +22,36 @@
 .headerMaintext {
   color: var(--color-primary-main);
   font-weight: var(--font-weight-bold);
-  font-size: 250px;
+  font-size: 5rem; /* Adjusted for responsiveness */
   margin-bottom: 0px;
   word-spacing: 0.5rem;
+  text-align: center;
 }
 
 .headerSubtext {
   color: var(--font-color-light);
   font-weight: var(--font-weight-main);
-  font-size: 60px;
+  font-size: 2rem; /* Adjusted for responsiveness */
+  text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+  .headerMaintext {
+    font-size: 8rem; /* Larger font size for tablets and above */
+  }
+
+  .headerSubtext {
+    font-size: 3rem; /* Larger font size for tablets and above */
+  }
+}
+
+@media (min-width: 1024px) {
+  .headerMaintext {
+    font-size: 10rem; /* Larger font size for desktops and above */
+  }
+
+  .headerSubtext {
+    font-size: 4rem; /* Larger font size for desktops and above */
+  }
 }
