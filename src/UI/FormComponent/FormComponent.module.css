@@ -4,7 +4,7 @@
   width: 40%;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   border-radius: 10px;

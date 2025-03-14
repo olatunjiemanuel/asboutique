@@ -1,9 +1,0 @@
-body {
-  margin: 0;
-  font-weight: var(--font-weight-main);
-  color: var(--font-color-main);
-}
-
-h1 {
-  font-weight: var(--font-weight-bold);
-}

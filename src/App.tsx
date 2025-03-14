@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import Header from "./components/Header";
+import Header from "../components/Header";
 import FormComponent from "./UI/FormComponent/index";
-import WhyShopWithUs from "./components/WhyShopWithUs";
+import WhyShopWithUs from "../components/WhyShopWithUs";
 import emailjs from "@emailjs/browser";
 
 function App() {

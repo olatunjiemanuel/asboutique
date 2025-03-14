@@ -1,2 +1,5 @@
 @import "./css/variables.css";
 @import "./css/reset.css";
+body {
+  background-color: red;
+}
